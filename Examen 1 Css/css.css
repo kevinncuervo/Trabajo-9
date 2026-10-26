@@ -151,3 +151,56 @@ body {
 .article__link:hover {
   color: #226f9f;
 }
+
+/* Pie de página */
+
+.footer {
+  margin-top: 69px;
+  padding-bottom: 65px;
+  color: #888888;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
+
+.footer__rule {
+  height: 0;
+  margin: 0 0 9px;
+  border: 0;
+  border-top: 1px dashed #bbbbbb;
+  opacity: 1;
+}
+
+.footer__copy {
+  margin: 0;
+  line-height: 15px;
+}
+
+/* Adaptación a pantallas pequeñas */
+
+@media (max-width: 600px) {
+  .site {
+    width: 100%;
+  }
+
+  .site__columns {
+    flex-wrap: wrap;
+  }
+
+  .navigation {
+    flex: 1 1 100%;
+    width: 100%;
+    border-right: 0;
+  }
+
+  .article {
+    flex: 1 1 100%;
+    width: auto;
+    margin: 25px 12px 0;
+  }
+
+  .article__title {
+    padding-right: 12px;
+  }
+}
+
