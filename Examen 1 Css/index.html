@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Stiven Hernandez, Kevinn cuervo">
+    <meta name="author" content="Stiven Hernandez, Kevinn Cuervo">
     <meta name="keywords" content="Relax Corporation, playa, turismo, vacaciones">
     <meta name="description" content="Sitio web de Relax Corporation dedicado al descanso y turismo.">
     <title>Relax Corporation</title>
@@ -15,11 +15,16 @@
     <div class="site container-fluid px-0" id="inicio">
       <header class="site__header">
         <div class="brand">
-          
+          <span class="brand__highlight">Relax</span>Corporation
+        </div>
+        <div class="hero">
+          <img class="hero__image img-fluid" src="images/header.jpg" alt="Playa tropical" width="720" height="160">
+        </div>
+      </header>
+
       <div class="site__columns row g-0">
         <aside class="navigation col-auto">
           <div class="navigation__heading">main menu</div>
-
           <nav class="navigation__list" aria-label="Menú principal">
             <a class="navigation__link" href="#inicio">Home</a>
             <a class="navigation__link" href="#bienvenida">About Us</a>
@@ -29,56 +34,46 @@
           </nav>
         </aside>
 
-      <main class="article col" id="contenido">
-        main menu
-        <hr />
-        <a href="#" class="navigation">Home</a>
-        <a href="#" class="navigation">About Us</a>
-        <a href="#" class="navigation">News</a>
-        <a href="#" class="navigation">Contact Us</a>
-        <a href="#" class="navigation">Links</a>
-      </main>
-      <br><br>
+        <main class="article col" id="contenido">
+          <h1 class="article__title" id="bienvenida">Welcome</h1>
+          <p class="article__paragraph">
+            <a class="article__link" href="#noticias">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
 
-      <div id="content">
-        <h1 class="article__title" id="bienvenida">Welcome</h1>
+          <h2 class="article__title article__title--following" id="noticias">Lorem ipsum</h2>
+          <p class="article__paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in
+            <a class="article__link" href="#enlaces">voluptate</a>
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
 
-        <p class="article__paragraph">p> <a class="article__link">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
-        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-        est laborum. </p>
-
-        <h2 class="article__title article__title--following" id="noticias">Lorem ipsum</h2>
-
-        <p class="article__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-        consequat. Duis aute irure dolor in reprehenderit in <a class="article__link">voluptate</a> 
+          <p class="article__paragraph article__paragraph--spaced">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. <a class="article__link" href="#contacto">Duis aute irure</a>
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.
+          </p>
+        </main>
+      </div>
 
       <footer class="footer" id="contacto">
         <hr class="footer__rule" id="enlaces">
-        <p class="footer__copy">
-          Copyright &copy; 2005 | All Rights Reserved
-        </p>
+        <p class="footer__copy">Copyright &copy; 2005 | All Rights Reserved</p>
       </footer>
-
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-        consequat. <a class="article__link">Duis aute irure</a> dolor in reprehenderit in voluptate 
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
-        est laborum. </p>
-
-      </div>
-
-      <div id="footer">
-
-        <hr />
-        Copyright � 2005 | All Rights Reserved
-
-      </div>
     </div>
   </body>
 </html>
